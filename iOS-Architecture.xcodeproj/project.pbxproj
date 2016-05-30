@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98C965094E9A980DB692A86B /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96EE51859421075604D3B /* ImageEntity.swift */; };
 		98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */; };
 		98C96D36F45CB03F43230805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96F972A7706DD47356B94 /* AppDelegate.swift */; };
 		98C96D6683AD52DFB50FF6F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96C1DD27BAD0B361F66D7 /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		98C969FCC14D2E1EF85F628A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C96C1DD27BAD0B361F66D7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		98C96C8231A353FF38FE3AF6 /* iOS-ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-ArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C96EE51859421075604D3B /* ImageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
 		98C96F972A7706DD47356B94 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2284821CFC3FEA003352ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		AF2284831CFC3FEA003352ED /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		98C96BC6E740927282BEFBBE /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				98C96EE51859421075604D3B /* ImageEntity.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				98C96D36F45CB03F43230805 /* AppDelegate.swift in Sources */,
 				98C96F1B86524594618D7CE2 /* ViewController.swift in Sources */,
+				98C965094E9A980DB692A86B /* ImageEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
