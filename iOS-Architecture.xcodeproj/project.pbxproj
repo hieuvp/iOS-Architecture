@@ -13,6 +13,18 @@
 		98C96F1B86524594618D7CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C964EADDEDBABB83DD8B35 /* ViewController.swift */; };
 		98C96F581F42F56D69850109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C969FCC14D2E1EF85F628A /* Assets.xcassets */; };
 		98C96FB5C8B89A1321CB896C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */; };
+		AF2284871CFC3FEA003352ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284821CFC3FEA003352ED /* Alamofire.framework */; };
+		AF2284881CFC3FEA003352ED /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284831CFC3FEA003352ED /* RxBlocking.framework */; };
+		AF2284891CFC3FEA003352ED /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284841CFC3FEA003352ED /* RxCocoa.framework */; };
+		AF22848A1CFC3FEA003352ED /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284851CFC3FEA003352ED /* RxSwift.framework */; };
+		AF22848B1CFC3FEA003352ED /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284861CFC3FEA003352ED /* Swinject.framework */; };
+		AF22848D1CFC3FFC003352ED /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284821CFC3FEA003352ED /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF22848E1CFC3FFC003352ED /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284831CFC3FEA003352ED /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF22848F1CFC3FFC003352ED /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284841CFC3FEA003352ED /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF2284901CFC3FFC003352ED /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284851CFC3FEA003352ED /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF2284911CFC3FFC003352ED /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284861CFC3FEA003352ED /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF2284931CFC401E003352ED /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284921CFC401E003352ED /* RxTests.framework */; };
+		AF2284951CFC4028003352ED /* RxTests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284921CFC401E003352ED /* RxTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +37,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AF22848C1CFC3FF3003352ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF22848D1CFC3FFC003352ED /* Alamofire.framework in CopyFiles */,
+				AF22848E1CFC3FFC003352ED /* RxBlocking.framework in CopyFiles */,
+				AF22848F1CFC3FFC003352ED /* RxCocoa.framework in CopyFiles */,
+				AF2284901CFC3FFC003352ED /* RxSwift.framework in CopyFiles */,
+				AF2284911CFC3FFC003352ED /* Swinject.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2284941CFC4021003352ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF2284951CFC4028003352ED /* RxTests.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98C964EADDEDBABB83DD8B35 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +75,12 @@
 		98C96C1DD27BAD0B361F66D7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		98C96C8231A353FF38FE3AF6 /* iOS-ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-ArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C96F972A7706DD47356B94 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2284821CFC3FEA003352ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		AF2284831CFC3FEA003352ED /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
+		AF2284841CFC3FEA003352ED /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		AF2284851CFC3FEA003352ED /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		AF2284861CFC3FEA003352ED /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swinject.framework; sourceTree = "<group>"; };
+		AF2284921CFC401E003352ED /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTests.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2284931CFC401E003352ED /* RxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2284871CFC3FEA003352ED /* Alamofire.framework in Frameworks */,
+				AF2284881CFC3FEA003352ED /* RxBlocking.framework in Frameworks */,
+				AF2284891CFC3FEA003352ED /* RxCocoa.framework in Frameworks */,
+				AF22848A1CFC3FEA003352ED /* RxSwift.framework in Frameworks */,
+				AF22848B1CFC3FEA003352ED /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +113,7 @@
 				98C969FCC14D2E1EF85F628A /* Assets.xcassets */,
 				98C9653671088CAC3256DCF6 /* Info.plist */,
 				98C961D60E51E819FC3C4313 /* Storyboard */,
+				98C963065236EF7F0D82781F /* Generation */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -91,6 +143,13 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		98C963065236EF7F0D82781F /* Generation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generation;
+			sourceTree = "<group>";
+		};
 		98C96321D0F420E4F8898549 /* iOS-Architecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +164,12 @@
 		98C963D9004CA75F81B322F8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				AF2284921CFC401E003352ED /* RxTests.framework */,
+				AF2284821CFC3FEA003352ED /* Alamofire.framework */,
+				AF2284831CFC3FEA003352ED /* RxBlocking.framework */,
+				AF2284841CFC3FEA003352ED /* RxCocoa.framework */,
+				AF2284851CFC3FEA003352ED /* RxSwift.framework */,
+				AF2284861CFC3FEA003352ED /* Swinject.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -154,6 +219,7 @@
 				98C96A151A0F955D418834E6 /* Sources */,
 				98C96827AC5D521373993D4B /* Frameworks */,
 				98C96F45FE40C099BDF5541E /* Resources */,
+				AF22848C1CFC3FF3003352ED /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -171,6 +237,7 @@
 				98C967516A4064E696D60592 /* Sources */,
 				98C9673FAC839F10B2A17B75 /* Frameworks */,
 				98C96FA2486F1E97CE7481CC /* Resources */,
+				AF2284941CFC4021003352ED /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -262,6 +329,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Architecture.app/iOS-Architecture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = "iOS-ArchitectureTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pycogroup.iOS-ArchitectureTests";
@@ -313,6 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Architecture.app/iOS-Architecture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = "iOS-ArchitectureTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pycogroup.iOS-ArchitectureTests";
@@ -325,6 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = "iOS-Architecture/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pycogroup.iOS-Architecture";
@@ -336,6 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = "iOS-Architecture/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pycogroup.iOS-Architecture";
