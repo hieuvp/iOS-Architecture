@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E8DF9181CFC90A900579B43 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; };
 		0E8DF9191CFC90B300579B43 /* RxAlamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		367B251A6C46EC4FB0571AD6 /* PixabayRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B285A2C6BE055237B3723 /* PixabayRepository.swift */; };
 		367B260A47209DC959F131A8 /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B2D392E5EE76FF3D86D65 /* ResponseEntity.swift */; };
 		98C965094E9A980DB692A86B /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96EE51859421075604D3B /* ImageEntity.swift */; };
 		98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */; };
@@ -75,6 +76,7 @@
 /* Begin PBXFileReference section */
 		0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
 		367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Architecture-Bridging-Header.h"; sourceTree = "<group>"; };
+		367B285A2C6BE055237B3723 /* PixabayRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixabayRepository.swift; sourceTree = "<group>"; };
 		367B2D392E5EE76FF3D86D65 /* ResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEntity.swift; sourceTree = "<group>"; };
 		98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98C964EADDEDBABB83DD8B35 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			children = (
 				98C96EE51859421075604D3B /* ImageEntity.swift */,
 				367B2D392E5EE76FF3D86D65 /* ResponseEntity.swift */,
+				367B285A2C6BE055237B3723 /* PixabayRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				98C96F1B86524594618D7CE2 /* ViewController.swift in Sources */,
 				98C965094E9A980DB692A86B /* ImageEntity.swift in Sources */,
 				367B260A47209DC959F131A8 /* ResponseEntity.swift in Sources */,
+				367B251A6C46EC4FB0571AD6 /* PixabayRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
@@ -441,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
@@ -475,6 +482,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

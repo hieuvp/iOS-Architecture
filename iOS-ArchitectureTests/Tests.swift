@@ -7,9 +7,11 @@
 //
 
 import XCTest
+import RxSwift
 @testable import iOS_Architecture
 
 class Tests: XCTestCase {
+    private let serialScheduler = SerialDispatchQueueScheduler(internalSerialQueueName: String(self.dynamicType))
 
     override func setUp() {
         super.setUp()
@@ -24,6 +26,7 @@ class Tests: XCTestCase {
     }
 
     func testPerformanceExample() {
+
         self.measureBlock {
 
         }
