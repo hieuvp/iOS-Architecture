@@ -25,6 +25,8 @@
 		AF2284911CFC3FFC003352ED /* Swinject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284861CFC3FEA003352ED /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF2284931CFC401E003352ED /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284921CFC401E003352ED /* RxTests.framework */; };
 		AF2284951CFC4028003352ED /* RxTests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284921CFC401E003352ED /* RxTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF2284971CFC47D8003352ED /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284961CFC47D8003352ED /* Himotoki.framework */; };
+		AF2284981CFC47E1003352ED /* Himotoki.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF2284961CFC47D8003352ED /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AF2284981CFC47E1003352ED /* Himotoki.framework in CopyFiles */,
 				AF22848D1CFC3FFC003352ED /* Alamofire.framework in CopyFiles */,
 				AF22848E1CFC3FFC003352ED /* RxBlocking.framework in CopyFiles */,
 				AF22848F1CFC3FFC003352ED /* RxCocoa.framework in CopyFiles */,
@@ -81,6 +84,7 @@
 		AF2284851CFC3FEA003352ED /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		AF2284861CFC3FEA003352ED /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swinject.framework; sourceTree = "<group>"; };
 		AF2284921CFC401E003352ED /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTests.framework; sourceTree = "<group>"; };
+		AF2284961CFC47D8003352ED /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Himotoki.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2284971CFC47D8003352ED /* Himotoki.framework in Frameworks */,
 				AF2284871CFC3FEA003352ED /* Alamofire.framework in Frameworks */,
 				AF2284881CFC3FEA003352ED /* RxBlocking.framework in Frameworks */,
 				AF2284891CFC3FEA003352ED /* RxCocoa.framework in Frameworks */,
@@ -164,6 +169,7 @@
 		98C963D9004CA75F81B322F8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				AF2284961CFC47D8003352ED /* Himotoki.framework */,
 				AF2284921CFC401E003352ED /* RxTests.framework */,
 				AF2284821CFC3FEA003352ED /* Alamofire.framework */,
 				AF2284831CFC3FEA003352ED /* RxBlocking.framework */,
