@@ -21,7 +21,7 @@ class PixabayRepository {
         }()
     }
 
-    func request() -> Observable<ResponseEntity> {
+    func searchImages() -> Observable<ResponseEntity> {
         return RxAlamofire.requestJSON(.GET, Constants.url, parameters: Constants.parameters)
                 .map { (_, json) in
                     return try ResponseEntity.decodeValue(json)
