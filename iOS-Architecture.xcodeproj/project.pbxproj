@@ -13,14 +13,16 @@
 		367B260A47209DC959F131A8 /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B2D392E5EE76FF3D86D65 /* ResponseEntity.swift */; };
 		98C96068534357F3FCC651A2 /* ImageSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96075356A2FA2E6231458 /* ImageSearchTableViewController.swift */; };
 		98C960F43525CA61E5626770 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C9698B99C0EB90FE7C4353 /* Strings.swift */; };
+		98C962FDD58F67EBD3A77AE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C96784FCE586F9898F977D /* Localizable.strings */; };
 		98C963C4DBE3D4F419200BB9 /* ImageSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96946060770E5352525DD /* ImageSearchTableViewCell.swift */; };
 		98C965094E9A980DB692A86B /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96EE51859421075604D3B /* ImageEntity.swift */; };
+		98C9660EF29F8F02D416C340 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 98C9668A15CA41F8538B13C6 /* Cartfile */; };
 		98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */; };
 		98C9676E591AD52710B0AD7C /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96B35153A587107107A39 /* Storyboards.swift */; };
-		98C9691298893E703595CE5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C96CCFCF964A604F576CA0 /* Localizable.strings */; };
 		98C96C43B8454636FB0B57C2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96828E2098CA7208B5E38 /* Images.swift */; };
 		98C96D36F45CB03F43230805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C96F972A7706DD47356B94 /* AppDelegate.swift */; };
 		98C96F581F42F56D69850109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C969FCC14D2E1EF85F628A /* Assets.xcassets */; };
+		98C96F626E7D632CC272411F /* generate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 98C96BACB8B6B5F0CA90BF3E /* generate.sh */; };
 		98C96FB5C8B89A1321CB896C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */; };
 		AF2284871CFC3FEA003352ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284821CFC3FEA003352ED /* Alamofire.framework */; };
 		AF2284881CFC3FEA003352ED /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2284831CFC3FEA003352ED /* RxBlocking.framework */; };
@@ -88,14 +90,16 @@
 		98C9653671088CAC3256DCF6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		98C965462E85C5D1A8D2B751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98C9668A15CA41F8538B13C6 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		98C96784FCE586F9898F977D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		98C96828E2098CA7208B5E38 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		98C9683FF839DD5C6C9BB107 /* iOS-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C96946060770E5352525DD /* ImageSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchTableViewCell.swift; sourceTree = "<group>"; };
 		98C9698B99C0EB90FE7C4353 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		98C969FCC14D2E1EF85F628A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C96B35153A587107107A39 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		98C96BACB8B6B5F0CA90BF3E /* generate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = "<group>"; };
 		98C96C8231A353FF38FE3AF6 /* iOS-ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-ArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98C96CCFCF964A604F576CA0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		98C96EE51859421075604D3B /* ImageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
 		98C96F972A7706DD47356B94 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2284821CFC3FEA003352ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
@@ -105,7 +109,8 @@
 		AF2284861CFC3FEA003352ED /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swinject.framework; sourceTree = "<group>"; };
 		AF2284921CFC401E003352ED /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTests.framework; sourceTree = "<group>"; };
 		AF2284961CFC47D8003352ED /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Himotoki.framework; sourceTree = "<group>"; };
-		AF64E21C1CFD4EF900F126CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF64E21E1CFD647900F126CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF64E2201CFD65DB00F126CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +147,7 @@
 				98C961D60E51E819FC3C4313 /* Storyboard */,
 				98C963065236EF7F0D82781F /* Generation */,
 				367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */,
-				98C96CCFCF964A604F576CA0 /* Localizable.strings */,
+				98C96784FCE586F9898F977D /* Localizable.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -244,6 +249,8 @@
 				98C96321D0F420E4F8898549 /* iOS-Architecture */,
 				98C962443AA98C0158D5A726 /* iOS-ArchitectureTests */,
 				98C963D9004CA75F81B322F8 /* Framework */,
+				98C9668A15CA41F8538B13C6 /* Cartfile */,
+				98C96BACB8B6B5F0CA90BF3E /* generate.sh */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,6 +309,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 98C96E1739B3250CC9225B59;
 			productRefGroup = 98C96453EA0AACB71B1AC1FF /* Products */;
@@ -322,7 +330,9 @@
 				98C96F581F42F56D69850109 /* Assets.xcassets in Resources */,
 				98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */,
 				AF64E21B1CFD4EF900F126CB /* Main.storyboard in Resources */,
-				98C9691298893E703595CE5E /* Localizable.strings in Resources */,
+				98C962FDD58F67EBD3A77AE0 /* Localizable.strings in Resources */,
+				98C9660EF29F8F02D416C340 /* Cartfile in Resources */,
+				98C96F626E7D632CC272411F /* generate.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +384,8 @@
 		AF64E21D1CFD4EF900F126CB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF64E21C1CFD4EF900F126CB /* en */,
+				AF64E21E1CFD647900F126CB /* Base */,
+				AF64E2201CFD65DB00F126CB /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

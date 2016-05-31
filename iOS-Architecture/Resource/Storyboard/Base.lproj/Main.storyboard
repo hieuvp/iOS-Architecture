@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Image Search Table View Controller-->
+        <!--Pixabay Images-->
         <scene sceneID="0Z4-yT-0UR">
             <objects>
                 <tableViewController id="0Cq-vL-p9d" customClass="ImageSearchTableViewController" customModule="iOS_Architecture" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,11 +28,7 @@
                             <outlet property="delegate" destination="0Cq-vL-p9d" id="VeH-LS-r4e"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="eXA-7S-h1o">
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="@app_title" localized="YES"/>
-                        </userDefinedRuntimeAttributes>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Pixabay Images" id="eXA-7S-h1o"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SRH-31-3ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
