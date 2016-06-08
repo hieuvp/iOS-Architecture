@@ -14,7 +14,7 @@
 		367B2ADB0C960FAAFA4C2B0E /* generate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 367B208CECAA3F7112BE7B68 /* generate.sh */; };
 		367B2C5AAD4D8373DF75EEA9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */; };
 		367B2F10C2739417F90D29B0 /* PapersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B270F33252022A220E1A7 /* PapersDataSource.swift */; };
-		367B2F8219231494E82D145D /* papers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367B25FF44688470F15FD81F /* papers.plist */; };
+		367B2F8219231494E82D145D /* Papers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367B25FF44688470F15FD81F /* Papers.plist */; };
 		98C960F43525CA61E5626770 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C9698B99C0EB90FE7C4353 /* Strings.swift */; };
 		98C9660EF29F8F02D416C340 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 98C9668A15CA41F8538B13C6 /* Cartfile */; };
 		98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */; };
@@ -86,7 +86,7 @@
 		367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Architecture-Bridging-Header.h"; sourceTree = "<group>"; };
 		367B25260F1F29714362EFEB /* Localizable.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
-		367B25FF44688470F15FD81F /* papers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = papers.plist; sourceTree = "<group>"; };
+		367B25FF44688470F15FD81F /* Papers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Papers.plist; sourceTree = "<group>"; };
 		367B26FBE59BAF8520495B2D /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = SOURCE_ROOT; };
 		367B270F33252022A220E1A7 /* PapersDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PapersDataSource.swift; sourceTree = "<group>"; };
 		98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */,
 				AF64E2261CFD7C0100F126CB /* Localizable.strings */,
 				367B25260F1F29714362EFEB /* Localizable.stringsdict */,
-				367B25FF44688470F15FD81F /* papers.plist */,
+				367B25FF44688470F15FD81F /* Papers.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				AF64E2241CFD7C0100F126CB /* Localizable.strings in Resources */,
 				367B2ADB0C960FAAFA4C2B0E /* generate.sh in Resources */,
 				367B245AD378DA843043E24B /* Localizable.stringsdict in Resources */,
-				367B2F8219231494E82D145D /* papers.plist in Resources */,
+				367B2F8219231494E82D145D /* Papers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
