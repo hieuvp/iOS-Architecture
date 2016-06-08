@@ -1,0 +1,12 @@
+//
+// Created by HieuVP on 6/8/16.
+// Copyright (c) 2016 PYCO Group. All rights reserved.
+//
+
+class PapersDataSource {
+    private var papers = [Paper]()
+
+    var count: Int {
+        return papers.count
+    }
+}

@@ -10,7 +10,11 @@
 		0E8DF9181CFC90A900579B43 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; };
 		0E8DF9191CFC90B300579B43 /* RxAlamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		367B245AD378DA843043E24B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 367B25260F1F29714362EFEB /* Localizable.stringsdict */; };
+		367B2A4F3FAEBA7AF3A327BA /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B26FBE59BAF8520495B2D /* Paper.swift */; };
 		367B2ADB0C960FAAFA4C2B0E /* generate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 367B208CECAA3F7112BE7B68 /* generate.sh */; };
+		367B2C5AAD4D8373DF75EEA9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */; };
+		367B2F10C2739417F90D29B0 /* PapersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B270F33252022A220E1A7 /* PapersDataSource.swift */; };
+		367B2F8219231494E82D145D /* papers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367B25FF44688470F15FD81F /* papers.plist */; };
 		98C960F43525CA61E5626770 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C9698B99C0EB90FE7C4353 /* Strings.swift */; };
 		98C9660EF29F8F02D416C340 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 98C9668A15CA41F8538B13C6 /* Cartfile */; };
 		98C9670EBE618939DB73C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C96644CE03B5F091F60DA3 /* LaunchScreen.storyboard */; };
@@ -79,8 +83,12 @@
 /* Begin PBXFileReference section */
 		0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
 		367B208CECAA3F7112BE7B68 /* generate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = "<group>"; };
+		367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Architecture-Bridging-Header.h"; sourceTree = "<group>"; };
 		367B25260F1F29714362EFEB /* Localizable.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		367B25FF44688470F15FD81F /* papers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = papers.plist; sourceTree = "<group>"; };
+		367B26FBE59BAF8520495B2D /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = SOURCE_ROOT; };
+		367B270F33252022A220E1A7 /* PapersDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PapersDataSource.swift; sourceTree = "<group>"; };
 		98C960F4E10ECE8CD6FFCEA5 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98C9653671088CAC3256DCF6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		98C965462E85C5D1A8D2B751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +108,7 @@
 		AF2284861CFC3FEA003352ED /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swinject.framework; sourceTree = "<group>"; };
 		AF2284921CFC401E003352ED /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTests.framework; sourceTree = "<group>"; };
 		AF2284961CFC47D8003352ED /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Himotoki.framework; sourceTree = "<group>"; };
-		AF64E21E1CFD647900F126CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF64E21E1CFD647900F126CB /* Base */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF64E2201CFD65DB00F126CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		AF64E2251CFD7C0100F126CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +149,7 @@
 				367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */,
 				AF64E2261CFD7C0100F126CB /* Localizable.strings */,
 				367B25260F1F29714362EFEB /* Localizable.stringsdict */,
+				367B25FF44688470F15FD81F /* papers.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -166,6 +175,7 @@
 		98C962C60BC348E9D3181F2B /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				367B26FBE59BAF8520495B2D /* Paper.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -219,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				98C96F972A7706DD47356B94 /* AppDelegate.swift */,
+				367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */,
+				367B270F33252022A220E1A7 /* PapersDataSource.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -322,6 +334,7 @@
 				AF64E2241CFD7C0100F126CB /* Localizable.strings in Resources */,
 				367B2ADB0C960FAAFA4C2B0E /* generate.sh in Resources */,
 				367B245AD378DA843043E24B /* Localizable.stringsdict in Resources */,
+				367B2F8219231494E82D145D /* papers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +364,9 @@
 				98C9676E591AD52710B0AD7C /* Storyboards.swift in Sources */,
 				98C96C43B8454636FB0B57C2 /* Images.swift in Sources */,
 				98C960F43525CA61E5626770 /* Strings.swift in Sources */,
+				367B2C5AAD4D8373DF75EEA9 /* MasterViewController.swift in Sources */,
+				367B2F10C2739417F90D29B0 /* PapersDataSource.swift in Sources */,
+				367B2A4F3FAEBA7AF3A327BA /* Paper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
