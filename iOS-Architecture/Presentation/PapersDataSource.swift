@@ -18,9 +18,9 @@ class PapersDataSource {
 
     private func loadPapersFromDisk() -> [Paper] {
         if let path = NSBundle.mainBundle().pathForResource("Papers", ofType: "plist") {
-            if let dictArray = NSArray(contentsOfFile: path) {
+            if let array = NSArray(contentsOfFile: path) {
                 var papers: [Paper] = []
-                for item in dictArray {
+                for item in array {
                     if let dict = item as? NSDictionary {
                         let caption = dict["caption"] as! String
                         let imageName = dict["imageName"] as! String
