@@ -16,6 +16,10 @@ class PapersDataSource {
         papers = loadPapersFromDisk()
     }
 
+    func paperForItemAtIndexPath(indexPath: NSIndexPath) -> Paper? {
+        return papers[indexPath.item]
+    }
+
     private func loadPapersFromDisk() -> [Paper] {
         if let path = NSBundle.mainBundle().pathForResource("Papers", ofType: "plist") {
             if let array = NSArray(contentsOfFile: path) {

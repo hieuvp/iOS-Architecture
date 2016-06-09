@@ -20,26 +20,28 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PaperCell" id="ha0-3L-uaM">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PaperCell" id="ha0-3L-uaM" customClass="PaperCell" customModule="iOS_Architecture" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K33-L4-YtE">
-                                            <rect key="frame" x="8" y="8" width="184" height="184"/>
-                                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hDq-Ba-muN">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="K33-L4-YtE" firstAttribute="top" secondItem="ha0-3L-uaM" secondAttribute="top" constant="8" id="0Jf-PS-gB0"/>
-                                    <constraint firstAttribute="bottom" secondItem="K33-L4-YtE" secondAttribute="bottom" constant="8" id="G0k-Qc-PZI"/>
-                                    <constraint firstItem="K33-L4-YtE" firstAttribute="leading" secondItem="ha0-3L-uaM" secondAttribute="leading" constant="8" id="Q21-6I-ZuQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="K33-L4-YtE" secondAttribute="trailing" constant="8" id="qdv-B2-GUH"/>
+                                    <constraint firstAttribute="trailing" secondItem="hDq-Ba-muN" secondAttribute="trailing" id="QIr-y6-sAO"/>
+                                    <constraint firstItem="hDq-Ba-muN" firstAttribute="leading" secondItem="ha0-3L-uaM" secondAttribute="leading" id="UmU-FY-1jf"/>
+                                    <constraint firstItem="hDq-Ba-muN" firstAttribute="top" secondItem="ha0-3L-uaM" secondAttribute="top" id="XNL-bz-RM4"/>
+                                    <constraint firstAttribute="bottom" secondItem="hDq-Ba-muN" secondAttribute="bottom" id="dqY-ZI-d5z"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="paperImageView" destination="hDq-Ba-muN" id="c13-a6-vok"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

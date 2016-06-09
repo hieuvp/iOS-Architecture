@@ -10,6 +10,7 @@
 		0E8DF9181CFC90A900579B43 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; };
 		0E8DF9191CFC90B300579B43 /* RxAlamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E8DF9171CFC90A900579B43 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		367B245AD378DA843043E24B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 367B25260F1F29714362EFEB /* Localizable.stringsdict */; };
+		367B2505BC9CAB3178A929D5 /* PaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B24C40A1EFFE9B9D00265 /* PaperCell.swift */; };
 		367B2A4F3FAEBA7AF3A327BA /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B26FBE59BAF8520495B2D /* Paper.swift */; };
 		367B2ADB0C960FAAFA4C2B0E /* generate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 367B208CECAA3F7112BE7B68 /* generate.sh */; };
 		367B2C5AAD4D8373DF75EEA9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */; };
@@ -85,6 +86,7 @@
 		367B208CECAA3F7112BE7B68 /* generate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = "<group>"; };
 		367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		367B23E22A4373386FD012F7 /* iOS-Architecture-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-Architecture-Bridging-Header.h"; sourceTree = "<group>"; };
+		367B24C40A1EFFE9B9D00265 /* PaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperCell.swift; sourceTree = "<group>"; };
 		367B25260F1F29714362EFEB /* Localizable.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 		367B25FF44688470F15FD81F /* Papers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Papers.plist; sourceTree = "<group>"; };
 		367B26FBE59BAF8520495B2D /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = SOURCE_ROOT; };
@@ -231,6 +233,7 @@
 				98C96F972A7706DD47356B94 /* AppDelegate.swift */,
 				367B22CD2DDDBCE9CB971A5F /* MasterViewController.swift */,
 				367B270F33252022A220E1A7 /* PapersDataSource.swift */,
+				367B24C40A1EFFE9B9D00265 /* PaperCell.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				367B2C5AAD4D8373DF75EEA9 /* MasterViewController.swift in Sources */,
 				367B2F10C2739417F90D29B0 /* PapersDataSource.swift in Sources */,
 				367B2A4F3FAEBA7AF3A327BA /* Paper.swift in Sources */,
+				367B2505BC9CAB3178A929D5 /* PaperCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
